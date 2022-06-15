@@ -1,0 +1,240 @@
+*{  margin-top: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    flex:auto;
+    background-color:#DDDDDD;
+    font-family: "Poppins";
+}
+
+/*navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #06113C;
+    position: sticky;
+  }
+li {
+    margin: 0px;
+    float: right;
+    font-size: large;
+    justify-content: space-evenly;
+}
+  
+li a {
+    margin-top: 10px;
+   display: block;
+   padding: 20px ;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   font-size: 25px;
+   justify-content:space-between;
+}
+li a:hover {
+    background-color:#DDDDDD;
+    color: #06113C;
+}
+
+.Container{
+
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 30px;
+    width: 1000px;
+    height: 150px;
+    background-color:#06113C;
+    border: 2px solid gainsboro;
+    color: #DDDDDD;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px black);
+}
+p{
+    font-size: 20px;
+    font-family: 'Poppins';
+    text-align: justify;
+    padding: 15px;
+    color: white;
+}
+.Container1{
+    margin-top: 25px;
+    margin-left:25px;
+    padding: 30px;
+    width: 1000px;
+    height: 250px;
+    background-color:#FF8C32;
+    border: 2px solid gainsboro;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px black);
+}
+.Container2{
+    margin-top: 25px;
+    margin-left:25px;
+    margin-right:25px;
+    padding: 30px;
+    width: 1080;
+    height: 150px;
+    background-color:#06113C;
+    border: 2px solid gainsboro;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px black);
+}
+.Container3{
+    margin-top: 25px;
+    margin-left:25px;
+    margin-right:25px;
+    padding: 30px;
+    width: 1080;
+    height: 180px;
+    background-color:#FF8C32;
+    border: 2px solid gainsboro;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px black);
+}
+.Work span {
+    padding: 0%;
+    margin:40%;
+    margin-bottom: 0%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.h1 {
+    border-bottom: 2px solid black;
+    padding: 0%;
+    margin-bottom: 0%;
+    margin-left: 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+.Food {
+    margin-left:1px ;
+    color:#FF8C32;
+
+}
+.fuiux{
+    margin-right: 20px;
+    display: flex;
+}
+
+.skills{
+    color: #DDDDDD;
+    margin-top:25px ;
+    margin-right: 15px;
+    float: right;
+    width: 390px;
+    height: 150px;
+    background-color:#FF8C32;
+    border: 2px solid gainsboro;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px black);
+}
+.box {
+    background-color:#06113C;
+    height:20px;
+    width: 50px;
+    border: 2px solid gainsboro;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    
+}
+.box1{
+    
+    background-color: #06113C;
+    height:20px;
+    width: 50px;
+    border: 2px solid gainsboro;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+
+}
+span {
+    margin:5px;
+    color: #DDDDDD;
+    
+}
+.Experience{
+    margin-top:25px ;
+    margin-right: 15px;
+    float: right;
+    width: 390px;
+    height: 250px;
+    background-color:#06113C;
+    border: 2px solid gainsboro;
+    padding-top: 25px;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px black);
+}
+.Experience span {
+    margin-left:15px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    
+}
+.Experience p{
+    margin-left: 15px;
+    padding: 0;
+    line-height: 15px;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.portfolio{
+    float: right;
+    writing-mode: vertical-lr;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 600px;
+    margin-right: 80px;
+    display: flex;
+}
+.project{
+    margin: auto;
+    color: black;
+}
+button{
+    margin: 600px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 400px;
+    height: 100px;
+    background-color:#06113C ;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    padding: 15px;
+}
+.shuiux{
+    margin-right: 20px;
+    display: flex;
+}
+.b1{
+    margin: 600px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 400px;
+    height: 100px;
+    background-color:#06113C ;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    padding: 15px;
+}
+

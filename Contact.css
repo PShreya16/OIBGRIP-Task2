@@ -1,0 +1,114 @@
+*{  margin-top: 0%;
+    margin: 0%;
+}
+body{
+    flex:auto;
+    background-color:#FF8C32;
+    font-family: "Poppins";
+}
+
+/*navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #06113C;
+    position: sticky;
+  }
+li {
+    margin: 0px;
+    float: right;
+    font-size: large;
+    justify-content: space-evenly;
+}
+  
+li a {
+    margin-top: 10px;
+   display: block;
+   padding: 20px ;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   font-size: 25px;
+   justify-content:space-between;
+}
+li a:hover {
+    background-color:#FF8C32;
+    color: #06113C;
+}
+
+/*Shreya Parchurkar logo*/
+h1 {
+    margin-top: 50px;
+    font-size: 120px;
+    color:#06113C;
+    font-family: "Poppins";
+    text-align: center; 
+}
+
+.div1, .div2{
+    margin: 5px 5px 5px 135px;
+    width: 30%;
+    height: 50%;
+    padding: 10px;
+    /* border: 5px solid black; */
+}
+.text{
+    padding: auto;
+    font-size: 24px;
+    font-family: Poppins;
+    color:#06113C;
+}
+span{
+    padding: auto;
+    font-size: 32px;
+    font-family: Poppins;
+    color: #06113C;
+}
+.container{
+    margin: 25px;
+    float: right;
+    margin-right: 150px;
+    font-size: 24px;
+}
+.box{
+    margin:5px 5px 15px 5px;
+}
+label{
+    color: #06113C;
+    font-size: 28px;
+    /* border: 5px solid black; */
+    padding: 5px;
+
+}
+input{
+    width: 500px;
+    height: 35px;
+}
+.submitbtn{
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    background-color: #06113C;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+footer{
+    float: right;
+    height: 50px;
+}
+.behance{
+    padding: 05px;
+    margin: 10px;
+}
+.linkedin{
+    padding: 05px;
+    margin: 10px;
+}
+.instagram{
+    padding: 05px;
+    margin: 10px;
+}
